@@ -1,7 +1,10 @@
 # Provn Challenge - Setup Guide
 
-## Overview
+# GitHub Repo - https://github.com/Harshank-Patel/Provn_Challanges
+## Author: Harshank Patel 
+## Email: Harshank.TAMU@gmail.com
 
+## Overview
 Provn Challenge is an AI-powered public spending analytics platform that allows users to explore government spending data using natural language.
 
 Technology Stack:
