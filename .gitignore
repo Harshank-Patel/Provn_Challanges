@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environment Variables
+.env
+
+# Conda
+.conda/
+
+# Data
+data/*.csv
+data/*.xlsx
+
+# Node
+node_modules/
+
+# Mac
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
