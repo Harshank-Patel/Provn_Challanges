@@ -1,0 +1,17 @@
+{
+  "name": "pron-rate-limiter",
+  "version": "1.0.0",
+  "description": "In-memory rate-limiting middleware for B2B SaaS APIs (Pron.co challenge PoC)",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node server.js",
+    "demo": "node scripts/demo-burst.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

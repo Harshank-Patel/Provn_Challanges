@@ -1,0 +1,29 @@
+{
+  "defaultTier": "standard",
+  "tiers": {
+    "standard": {
+      "requestsPerMinute": 100,
+      "burstCapacity": 25
+    },
+    "premium": {
+      "requestsPerMinute": 500,
+      "burstCapacity": 100
+    }
+  },
+  "endpoints": {
+    "read": {
+      "methods": ["GET", "HEAD", "OPTIONS"],
+      "requestsPerMinute": 80,
+      "burstCapacity": 20
+    },
+    "write": {
+      "methods": ["POST", "PUT", "PATCH", "DELETE"],
+      "requestsPerMinute": 30,
+      "burstCapacity": 8
+    }
+  },
+  "store": {
+    "bucketTtlMs": 3600000,
+    "cleanupIntervalMs": 300000
+  }
+}
